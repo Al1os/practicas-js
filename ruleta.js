@@ -4,7 +4,4 @@ for (k=1; k<11; k++){
     total = vueltas * nro;
     num = total % 37;
     console.log("Nro de juego: " + k + "\nValor aleatorio generado: "+ total + "\nNro en el que cayo: " + nro + "\n");
-    if(num == 0){
-        console.log("ganaste");
-    }
 }
